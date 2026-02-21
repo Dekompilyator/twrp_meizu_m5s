@@ -1,9 +1,20 @@
-This is Meizu M5s TWRP device tree for Android 6.0 based recovery
+# TWRP Device Tree For Meizu M5s
 
-######## SPECS ########
-CPU: MediaTek MT6753 (Cortex-A53 1.3Ghz)
-GPU: Mali-T720
-RAM: 2 GB
-Storage: 16 GB
-OS: Android 6.0
-Kernel: 3.18.19
+Specs:
+================================
+Basic   | Spec Sheet
+-------:|:--------------------------------------------------
+CPU     | MediaTek MT6753 (Cortex-A53 1.3Ghz)
+GPU     | Mali-T720
+Memory  | 2GB RAM
+Screen  | 720x1280
+Storage | 16 GB
+Android | 6.0
+Kernel  | 3.18.19
+
+**Working model:**
+* Meizu M5s Only
+
+This branch is for build Android 6.0 based Recoveries (TWRP)
+
+Current Status: Working
