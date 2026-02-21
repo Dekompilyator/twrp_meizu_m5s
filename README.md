@@ -6,7 +6,7 @@ Basic   | Spec Sheet
 -------:|:--------------------------------------------------
 CPU     | MediaTek MT6753 (Cortex-A53 1.3Ghz)
 GPU     | Mali-T720
-Memory  | 2GB RAM
+Memory  | 3 GB
 Screen  | 720x1280
 Storage | 16 GB
 Android | 6.0
