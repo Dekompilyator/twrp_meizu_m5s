@@ -1,0 +1,5 @@
+on late-init
+    service fuelgauged /sbin/fuelgauged_static
+    seclabel u:r:init:s0
+    start fuelgagued
+
