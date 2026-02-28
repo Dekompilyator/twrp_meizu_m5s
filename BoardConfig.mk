@@ -30,12 +30,15 @@ BOARD_DTB_OFFSET := 0x07808000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000
 
 
-# Partitions
+# Flash Block
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 
 # CPU Thermal
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
+
+# Metadata
+BOARD_USES_METADATA_PARTITION := true
 
 
 # Recovery
@@ -44,6 +47,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+
 
 #Storage
 BOARD_HAS_NO_REAL_SDCARD := true
