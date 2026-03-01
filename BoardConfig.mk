@@ -4,6 +4,7 @@ DEVICE_TREE := device/meizu/m5s
 TARGET_BOARD_PLATFORM := mt6753
 TARGET_BOOTLOADER_BOARD_NAME := mt6753
 
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -17,7 +18,6 @@ TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
-
 
 
 # Kernel
@@ -37,8 +37,12 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # CPU Thermal
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
 
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
+
+# HW ID
+TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
 
 # Recovery
