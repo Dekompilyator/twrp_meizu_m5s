@@ -13,8 +13,8 @@ Storage | 16 / 32 GB
 Android | 6.0
 Kernel  | 3.18.19
 
-<img width="250" height="450" alt="m5s" src="https://github.com/user-attachments/assets/14a42881-90be-4bb5-ba1b-3af0f02938c7" />
 
+<img width="320" height="425" alt="52209629-removebg-preview" src="https://github.com/user-attachments/assets/a735b6dc-df9b-49d1-9b40-bbe848d7921f" />
 
 
 # **Build Guide**
