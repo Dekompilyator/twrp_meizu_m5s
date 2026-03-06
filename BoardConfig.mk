@@ -22,7 +22,7 @@ TARGET_2ND_CPU_VARIANT := generic
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive androidboot.hardware=mt6735
-TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/prebuilt/Image.gz-dtb
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_BOOTIMG_HEADER_VERSION := 0
@@ -49,7 +49,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SUPPRESS_SECURE_ERASE := true
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 
 #Storage
@@ -62,6 +61,7 @@ TW_INCLUDE_NTFS_3G := true
 
 # TWRP
 TW_THEME := portrait_hdpi
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_EXTRA_LANGUAGES := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
@@ -72,3 +72,7 @@ TW_INCLUDE_CRYPTO := true
 # Battery and CPU
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
+
+#Customization
+TW_DEVICE_VERSION := M612H-1.0.1 by @Dekompilyator
