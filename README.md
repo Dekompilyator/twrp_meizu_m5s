@@ -14,7 +14,7 @@ Android | 6.0
 Kernel  | 3.18.19
 
 
-<img width="320" height="425" alt="52209629-removebg-preview" src="https://github.com/user-attachments/assets/a735b6dc-df9b-49d1-9b40-bbe848d7921f" />
+<img width="320" height="400" alt="52209629-removebg-preview" src="https://github.com/user-attachments/assets/a735b6dc-df9b-49d1-9b40-bbe848d7921f" />
 
 
 # **Build Guide**
